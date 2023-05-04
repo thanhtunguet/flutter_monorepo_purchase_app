@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const PurchaseApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class PurchaseApp extends StatelessWidget {
+  const PurchaseApp({super.key});
 
   // This widget is the root of your application.
   @override
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Purchase App'),
     );
   }
 }
